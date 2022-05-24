@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>lab 5</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="my-work">
+
+            <h2>pomodoro Timer</h2>
+    
+    <div id="timer" class="my-timer">
+        <span class="w-text">Work Timer</span> <span> 0 : 00 : 00 </span>
+    </div>
+
+    <div id="break" class="break-timer">
+        <span class="b-text">Break Timer</span> <span> 0 : 00 : 00 </span>
+    </div>
+
+    <div class="btns">
+        <button id="wStar-btn" onclick="workStart()">Start Work</button>
+
+        <button id="bStar-btn" onclick="breakStart()">Start Break</button>
+
+        <button id="resume-btn" onclick="stopBreak()">Resume Work</button>
+
+        <button onclick="clearAll()">End Work</button>
+    </div>
+</div>
+</div>
+
+    <script src="mine.js"></script>
+</body>
+</html>
